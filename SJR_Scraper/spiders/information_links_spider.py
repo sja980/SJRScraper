@@ -5,10 +5,11 @@ class JournalDataSpider(scrapy.Spider):
     name = 'journal_data'
 
     # Replace with  target URLs
+    # See SJRjournallinks.txt file for more links - copy and paste all below for complete dataset 
+    # WARNING! Total of 30,000 webpage to scrape and if done in one go will take some time and be taxing on PC - SCRAPY docs advise 10,000 max at a time. Then merge resulting .csv files.
     start_urls = [
         'https://www.scimagojr.com/journalsearch.php?q=28773&tip=sid&clean=0',
     ]
-
 
     def parse(self, response):
         # Locate the <h2> tag with "Information" and find all <a> tags under it
