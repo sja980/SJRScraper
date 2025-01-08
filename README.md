@@ -22,14 +22,14 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
 
 ## To Use
-### Ensure you are in the project directory and the virtual environment is activated
+Ensure you are in the project directory and the virtual environment is activated
 ### Run the scraper
 python SJR_Scraper.py
 
 ### The scraped data will be saved to journalprofilelinks2024.txt
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 Thanks to SSCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal] for providing the data.
