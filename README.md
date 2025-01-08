@@ -10,26 +10,26 @@ SJRScraper is a Python-based web scraper built using the [Scrapy](https://scrapy
 
 ## Installation
 
-# Clone the repository and navigate to the project directory
+### Clone the repository and navigate to the project directory
 git clone https://github.com/sja980/SJRScraper.git
 cd SJRScraper
 
-# Create a virtual environment (optional)
+### Create a virtual environment (optional)
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 
-# Install the required dependencies
+### Install the required dependencies
 pip install -r requirements.txt
 
 ## To Use
-# Ensure you are in the project directory and the virtual environment is activated
-# Run the scraper
+### Ensure you are in the project directory and the virtual environment is activated
+### Run the scraper
 python SJR_Scraper.py
 
-# The scraped data will be saved to journalprofilelinks2024.txt
+### The scraped data will be saved to journalprofilelinks2024.txt
 
 ##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+##Acknowledgments
 Thanks to SSCImago, (n.d.). SJR — SCImago Journal & Country Rank [Portal] for providing the data.
