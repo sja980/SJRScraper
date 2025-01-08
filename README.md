@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ## To Use
 Ensure you are in the project directory and the virtual environment is activated
 
-## Add Links to information_links_spider.py
+### Add Links to information_links_spider.py
 See .txt file 'journalprofilelinks2024.txt' for complete list of SJR journal profile links. Add desired links to SJR_Scraper/spiders/information_links_spider.py in 'start_urls' (Marked by comments). 
 
 ### Run the scraper
